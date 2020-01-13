@@ -57,4 +57,4 @@ php artisan db:seed
 
 Setelah proses diatas berhasil dilalui tanpa hambatan, silahkan akses di browser url http://localhost/tixam/public untuk mengakses aplikasi ujian.
 
-Untuk login sebagai guru silahkan gunakan email: <b>admin@ayosinau.com</b>, password: <b>secret</b>
+Untuk login sebagai guru silahkan gunakan email: <b>admin@admin.com</b>, password: <b>admin</b>
