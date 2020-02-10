@@ -36,7 +36,7 @@ Setelah itu ketikan:
 https://github.com/ahserahh/tugas-akhir
 ```
 
-Tunggu sampai file selesai di clone ke folder htdocs server Anda, lalu masuk ke folder <b>ujian-online</b> dengan mengetikan (```cd ujian-online```) pada command prompt (gitbash) Anda, lalu ketikan :
+Tunggu sampai file selesai di clone ke folder htdocs server Anda, lalu masuk ke folder <b>tugas-akhir</b> dengan mengetikan (```cd tugas-akhir```) pada command prompt (gitbash) Anda, lalu ketikan :
 
 ```
 composer install
@@ -49,12 +49,12 @@ Atau apabila anda telah melakukan instalasi sebelumnya silahkan update composer 
 composer update --verbose --profile --prefer-dist
 ```
 
-Buka browser dan ketikan url http://localhost/phpmyadmin. Lalu buat database baru dengan nama <b>tixam</b>. Setelah itu ketikan script berikut pada command promt:
+Buka browser dan ketikan url http://localhost/phpmyadmin. Lalu buat database baru dengan nama <b>ots</b>. Setelah itu ketikan script berikut pada command promt:
 ```
 php artisan migrate
 php artisan db:seed
 ```
 
-Setelah proses diatas berhasil dilalui tanpa hambatan, silahkan akses di browser url http://localhost/tixam/public untuk mengakses aplikasi ujian.
+Setelah proses diatas berhasil dilalui tanpa hambatan, silahkan akses di browser url http://localhost/ots/public untuk mengakses aplikasi ujian.
 
 Untuk login sebagai guru silahkan gunakan email: <b>admin@admin.com</b>, password: <b>admin</b>
